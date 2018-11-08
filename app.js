@@ -6,6 +6,6 @@ countdown.setLabels(
   'Buon Lucca Comics!',
 );
 
-var timeUntilLucca = countdown(new Date(2018, 9, 31, 9), function(ts) {
+var timeUntilLucca = countdown(new Date(2019, 9, 30, 9), function(ts) {
   document.getElementById('countdown').innerHTML = 'Ancora ' + ts.toHTML('strong');
 });
